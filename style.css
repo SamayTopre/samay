@@ -1,0 +1,398 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.curve-container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.curve-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.emoji {
+    font-size: 2em;
+    margin-top: -10px; /* Adjust margin-top to align emoji properly */
+}
+
+.yellow-text {
+    color: goldenrod;
+}
+
+.light-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button styles */
+.button-container {
+    margin-top: 20px;
+}
+
+/* Button styles */
+.button-container {
+margin-top: 20px;
+}
+
+.button {
+display: block; /* Display buttons as block elements to stack them vertically */
+padding: 10px 0; /* Adjust padding for better spacing */
+background-color: black; /* Black background color */
+color: white; /* White text color */
+text-decoration: none;
+border-radius: 5px;
+margin: 10px auto; /* Center buttons horizontally */
+width: 150px; /* Adjust button width as needed */
+text-align: center;
+font-weight: bold;
+transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.button:hover {
+background-color: goldenrod; /* Change color on hover (blue in this case) */
+}
+
+/* Add these styles to your existing CSS or in a separate stylesheet */
+
+/* Add these styles to your existing CSS or in a separate stylesheet */
+
+#about-me {
+background-color: #222; /* Background color for the section */
+padding: 40px 0; /* Add padding for spacing */
+text-align: center;
+border-radius: 20px; /* Add border radius for curvy appearance */
+}
+
+#about-me h2 {
+color: white; /* Heading text color */
+font-size: 24px; /* Adjust the font size as needed */
+font-family: 'Your Professional Font', sans-serif; /* Replace with your desired professional font */
+}
+
+.subheading {
+color: goldenrod; /* Yellow text color for the subheading */
+font-size: 18px; /* Adjust the font size as needed */
+margin-top: 10px; /* Add space between heading and subheading */
+}
+
+.about-text {
+color: white; /* Light white text color for the about me text */
+font-size: 16px; /* Adjust the font size as needed */
+margin-top: 20px; /* Add space between subheading and text */
+line-height: 1.5; /* Adjust line height for readability */
+}
+
+.buttons {
+margin-top: 20px; /* Add space between text and buttons */
+}
+
+.button {
+display: block;
+padding: 10px 20px;
+background-color: black;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+margin: 10px auto;
+width: 150px;
+text-align: center;
+font-weight: bold;
+font-family: 'Your Professional Font', sans-serif; /* Replace with your desired professional font */
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+background-color: goldenrod; /* Golden yellow on hover */
+color: black; /* Text color on hover */
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    width: 200px; /* Adjust the size as needed */
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-heading {
+    font-size: 24px;
+    margin-top: 20px;
+    color:goldenrod; /* Yellow text color */
+}
+
+.section-heading {
+    font-size: 24px;
+    color: white; /* White text color */
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.section-symbol {
+    font-size: 36px;
+    color: goldenrod; /* Yellow text color for symbols */
+}
+
+.section-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Container for the centered section with margin-top */
+.centered-section-container {
+    margin-top: 40px; /* Adjust the margin as needed */
+}
+/* Default styles for larger screens */
+body {
+background-color: black;
+color: white;
+font-family: Arial, sans-serif;
+}
+
+/* Styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+/* Adjust the styles for smaller screens here */
+.curve-container {
+padding: 10px;
+}
+
+.profile-pic {
+width: 150px;
+}
+
+
+.main-container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Style for the contact container */
+    .contact-container {
+        background-color: #222; /* Background color set to #222 */
+        padding: 20px;
+        margin-top: 20px; /* Space from above containers */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Style for the contact headings */
+    .contact-heading {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: goldenrod; /* Golden yellow color */
+    }
+
+    /* Style for contact links */
+    .contact-link {
+        text-decoration: none;
+        color: #333;
+        margin: 10px;
+    }
+
+   
+/* Style for the main container */
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the contact container */
+.contact-container {
+    background-color: #222; /* Background color set to #222 */
+    padding: 20px;
+    margin-top: 20px; /* Space from above containers */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the contact headings */
+.contact-heading {
+    font-size: 24px;
+    margin-bottom: 20px; /* Increased margin for spacing */
+    color: goldenrod; /* Golden yellow color */
+}
+
+/* Style for contact links */
+.contact-link {
+    text-decoration: none;
+    color: white; /* White color */
+    margin: 10px 0; /* Margin adjusted for spacing */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Hover effect for contact links */
+.contact-link:hover {
+    color: yellow; /* Yellow hover color */
+}
+
+/* Style for the linked WhatsApp and Instagram links */
+.contact-social {
+    margin-top: 10px; /* Margin added to separate from above links */
+}
+
+/* Style for inline social links */
+.contact-social a {
+    text-decoration: none;
+    color: white; /* White color */
+    margin: 0 10px; /* Margin for spacing between social links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Hover effect for inline social links */
+.contact-social a:hover {
+    color: yellow; /* Yellow hover color */
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* ... (Your existing styles) ... */
+
+/* Style for icons */
+.contact-icon {
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-right: 10px; /* Space between icon and text */
+    color: goldenrod; /* Icon color */
+}
+/* Add more responsive styles as needed */
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Container styles */
+.contact-container {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 40px;
+}
+
+/* Heading styles */
+.contact-heading {
+    font-size: 36px;
+    color: white;
+}
+
+/* Contact options styles */
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-option {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-option a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Social media icon styles */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 36px;
+    margin: 0 10px;
+    color: white;
+}
+.social-icons {
+margin-top: 20px;
+}
+
+.social-icons a {
+display: inline-block;
+margin: 0 10px;
+font-size: 24px;
+color: white;
+text-decoration: none;
+}
+
+/* Replace emoji symbols with actual icons */
+.instagram-icon::before {
+content: url('instagram_icon.png'); /* Replace with the actual Instagram icon image path */
+width: 24px; /* Set the width of the Instagram icon */
+height: 24px; /* Set the height of the Instagram icon */
+}
+
+.linkedin-icon::before {
+content: url('linkedin_icon.png'); /* Replace with the actual LinkedIn icon image path */
+width: 24px; /* Set the width of the LinkedIn icon */
+height: 24px; /* Set the height of the LinkedIn icon */
+}
+
+.snapchat-icon::before {
+content: url('snapchat_icon.png'); /* Replace with the actual Snapchat icon image path */
+width: 24px; /* Set the width of the Snapchat icon */
+height: 24px; /* Set the height of the Snapchat icon */
+}
+/* styles.css */
+.navbar {
+background-color: #333; /* Background color of the navbar */
+text-align: center;
+padding: 10px 0; /* Add padding for spacing */
+}
+
+.navbar a {
+display: inline-block; /* Ensure icons are inlined */
+margin: 0 10px; /* Add margin to separate the icons */
+text-decoration: none;
+border-radius: 50%; /* Make the icons circular */
+overflow: hidden; /* Hide overflow to create a circular shape */
+}
+
+.navbar img {
+max-width: 100%; /* Ensure the image does not exceed the container size */
+height: auto; /* Preserve the aspect ratio of the image */
+width: 30px; /* Adjust the icon size as needed */
+height: 30px;
+transition: transform 0.2s ease-in-out; /* Add a subtle hover effect */
+}
+
+.navbar a:hover img {
+transform: scale(1.2); /* Enlarge the icon on hover */
+}
